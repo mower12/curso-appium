@@ -17,21 +17,21 @@ public class EjecucionCasos extends DriverContext {
         setUp("emulator-5554","android","/Users/carlosfuentes/Downloads/registroDeUsuarios.apk","",true);
     }
 
-    @Test(priority = 0)
+    @Test(priority = 1 , description = "TestCase Ultima clase")
     public void testCaseUltimaClase(){
         TestCaseUltimaClase testCaseUltimaClase = new TestCaseUltimaClase();
         testCaseUltimaClase.frontEnd();
         finalAssert();
 
     }
-    @Test(priority = 1)
+    @Test(priority = 2, description = "TestCase Uno")
     public void testCaseUno(){
         TestCaseUno testCaseUno = new TestCaseUno();
         testCaseUno.frontEnd();
         finalAssert();
 
     }
-    @Test(priority = 2)
+    @Test(priority = 3, description = "TestCase Dos")
     public void testCaseDos(){
         TestCaseDos testCaseDos = new TestCaseDos();
         testCaseDos.frontEnd();
