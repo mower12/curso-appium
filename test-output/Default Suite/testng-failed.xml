@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="CursoAppium(failed)">
+    <classes>
+      <class name="testSuites.EjecucionCasos">
+        <methods>
+          <include name="iniciarSession"/>
+          <include name="test"/>
+          <include name="cerrarSession"/>
+        </methods>
+      </class> <!-- testSuites.EjecucionCasos -->
+    </classes>
+  </test> <!-- CursoAppium(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
